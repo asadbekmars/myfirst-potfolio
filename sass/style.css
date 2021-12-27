@@ -61,13 +61,14 @@ section .box-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 0px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 50px;
+  -webkit-box-pack: first baseline;
+      -ms-flex-pack: first baseline;
+          justify-content: first baseline;
 }
 
 section .box-container h2 {
+  width: 100px;
   font-size: 20px;
 }
 

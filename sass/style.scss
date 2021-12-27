@@ -59,10 +59,11 @@ section{
 
     .box-container{
         margin-top: 50px;
-        @include display();
-        justify-content: space-between;
+        @include display(50px);
+        justify-content: first baseline;
 
         h2{
+            width: 100px;
             font-size: 20px;
         }
 
